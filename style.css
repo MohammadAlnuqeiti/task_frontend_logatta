@@ -12,11 +12,7 @@ body {
     background-color: #e6f1ff !important;
 }
 
-/* #container{
-    width: 70%;
-    margin: auto;
-    border-radius: 30px;
-} */
+/* start navbar style */
 .navbar {
     background-color: white !important;
     padding: 0 !important;
@@ -28,7 +24,7 @@ body {
 
 .navbar div {
     background-color: white !important;
-
+  
 }
 
 .logo {
@@ -45,13 +41,8 @@ body {
     margin: 0 2rem 0 2rem;
 }
 
-.SignUpA {
+.SignUpLink {
     color: #F53838 !important;
-
-}
-
-.line {
-    display: flex !important;
 
 }
 
@@ -65,6 +56,12 @@ body {
 .nav-link a {
     font-size: 16px !important;
 }
+
+
+/* end navbar style */
+
+
+
 
 .container {
     display: flex;
@@ -81,7 +78,7 @@ body {
     font-size: 16px !important;
 }
 
-.side {
+.box {
     display: flex;
     text-align: center;
     width: 20rem;
@@ -96,14 +93,13 @@ body {
     background-color: #FFECEC;
     border-radius: 50%;
     padding: .70rem;
-
     font-size: 20px !important;
     position: relative;
     color: #F53838;
     top: 25%;
 }
 
-.side1 {
+.sideOne {
     padding: 6rem;
 }
 
@@ -112,7 +108,7 @@ body {
     justify-content: space-around !important;
 }
 
-.side1 p {
+.sideOne p {
     margin-bottom: 1.5rem !important;
     font-size: 15px;
     color: #4F5665;
@@ -154,11 +150,11 @@ h1 {
     margin-right: 1rem !important;
 }
 
-.sec2 {
+.section2 {
     background-color: #ffffff;
 }
 
-.sec1 {
+.section1 {
     padding-bottom: 2rem !important;
     /* margin-top: 4rem !important; */
     background-color: #ffffff;
@@ -170,24 +166,21 @@ h1 {
 }
 
 @media (max-width: 991px) {
-    /* .side2 {
-        display: none;
-    } */
-
-    .side1 {
+ 
+    .sideOne {
         padding: 2rem;
     }
 
-    .shadow .side .par_sec2 b {
+    .shadow .box .par_sec2 b {
         font-size: 15px;
     }
 
-    .shadow .side .par_sec2 p {
+    .shadow .box .par_sec2 p {
         font-size: 10px;
     }
 
 }
-.side2 img {
+.sideTwo img {
     width: 100%;
 }
 @media (min-width: 991px) {
@@ -195,4 +188,24 @@ h1 {
     .navlink {
         margin-left: 2rem !important;
     }
+}
+@media (max-width: 281px) {
+
+  
+    .navbar div{
+        flex-wrap: nowrap !important;
+
+    }
+    .h1, h1 {
+        font-size: calc(1.2rem + 1.5vw) !important;
+    }
+
+    .sideOne p {
+        font-size: 14px;
+    }
+    .check span{
+        font-size: 0.7rem;
+    }
+    
+    
 }
